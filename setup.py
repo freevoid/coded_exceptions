@@ -8,6 +8,12 @@ setup(
     # Metadata
     author = "Nikolay Zakharov",
     author_email = "nikolay@desh.su",
+    description = "New base class for application exceptions: CodedException",
+    long_description = (
+        "Module provides new class to use as base "
+        "class for exceptions. Any subclass of CodedException "
+        "will have an unique class attribute 'code'. Such a code "
+        "can be used to identify errors (for example, in api responses)"),
     keywords = "exception exceptions api",
     classifiers=[
           'Development Status :: 4 - Beta',
