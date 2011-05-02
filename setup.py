@@ -16,11 +16,12 @@ setup(
         'will have an unique class attribute "code". Such a code '
         'can be used to identify errors (for example, in api responses)'),
     keywords = 'exception exceptions api',
+    license = 'MIT',
     classifiers=[
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',
           'Intended Audience :: System Administrators',
-          'License :: OSI Approved :: Python Software Foundation License',
+          'License :: OSI Approved :: MIT License',
           'Operating System :: OS Independent',
           'Programming Language :: Python',
     ],
